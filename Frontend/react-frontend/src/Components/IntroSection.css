@@ -1,0 +1,15 @@
+.portrait{
+    border-radius: 50%;
+    width: 9%;
+    height: 12%;
+
+    top: 5vh;
+}
+
+.intro{
+    display: flex;
+    width: 100vw;
+
+    flex-direction: column;
+    align-items: center;
+}
