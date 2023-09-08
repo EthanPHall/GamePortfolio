@@ -1,19 +1,14 @@
-.portrait{
-    border-radius: 50%;
-    width: 180px;
-    height: 240px;
+.container{
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
 
     position: relative;
-    top: 3vh;
-
-    border-color: rgb(0, 51, 160);
-    border-radius: 50%;
-    border-style: solid;
-
-    z-index: 1;
 }
 
-/* .description{
+.main-section{
     width: 50vw;
 
     position: relative;
@@ -28,4 +23,4 @@
     border-color: rgb(0, 51, 160);
     border-radius: 10px;
     border-style: solid;
-} */
+}

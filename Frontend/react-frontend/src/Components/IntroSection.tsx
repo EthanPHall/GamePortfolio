@@ -1,11 +1,12 @@
 import portrait from '../Assets/Profile Picture.jpg';
 import './IntroSection.css';
+import './Common.css';
 
 function IntroSection(){
     return <>
-        <div className='intro'>
+        <div className='container'>
             <img className='portrait' src={portrait} alt="portrait" ></img>
-            <p className='description'>
+            <p className='description main-section'>
                 Hi, and thank you for checking out this portfolio! My name is Ethan, 
                 and I'm an aspiring game developer based out of Kentucky. I'm a graduate of
                 the Univeristy of Kentucky, where I earned my Bachelor's in Computer Science.
