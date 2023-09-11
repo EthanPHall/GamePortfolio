@@ -8,13 +8,17 @@
     position: relative;
 }
 
+.container:not(:first-child){
+    margin-top: 3vh;
+}
+
 .main-section{
     width: 50vw;
 
     position: relative;
     top: -3vh;
 
-    padding: 10px;
+    padding: 2vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
 

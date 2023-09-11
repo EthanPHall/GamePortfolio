@@ -6,7 +6,7 @@ function IntroSection(){
     return <>
         <div className='container'>
             <img className='portrait' src={portrait} alt="portrait" ></img>
-            <p className='description main-section'>
+            <div className='description main-section'>
                 Hi, and thank you for checking out this portfolio! My name is Ethan, 
                 and I'm an aspiring game developer based out of Kentucky. I'm a graduate of
                 the Univeristy of Kentucky, where I earned my Bachelor's in Computer Science.
@@ -19,8 +19,9 @@ function IntroSection(){
                 <br></br>
                 <br></br>
                 I'm currently looking for work so, if you like what you see, feel free
-                to contact me! I'm always excited to explore new game development oportunities.
-            </p>
+                to contact me! I'm always excited to explore new game development/game design
+                oportunities.
+            </div>
         </div>
     </>
 }

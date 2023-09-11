@@ -9,10 +9,13 @@ function ProjectSection(){
 
     return <>
         <div className='container'>
-            <div className='project-grid main-section'>
-                <ProjectCard></ProjectCard>
-                <ProjectCard></ProjectCard>
-                <ProjectCard></ProjectCard>
+            <div className='main-section'>
+                <h2>Projects</h2>
+                <div className='project-grid'>
+                    <ProjectCard></ProjectCard>
+                    <ProjectCard></ProjectCard>
+                    <ProjectCard></ProjectCard>
+                </div>
             </div>
         </div>
     </>;
