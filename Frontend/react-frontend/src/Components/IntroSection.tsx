@@ -4,7 +4,7 @@ import './Common.css';
 
 function IntroSection(){
     return <>
-        <div className='container'>
+        <div className='container' id="about">
             <img className='portrait' src={portrait} alt="portrait" ></img>
             <div className='description main-section'>
                 Hi, and thank you for checking out this portfolio! My name is Ethan, 

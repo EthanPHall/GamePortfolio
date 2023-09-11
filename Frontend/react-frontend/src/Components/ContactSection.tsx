@@ -2,9 +2,8 @@ import React from "react";
 import "./ContactSection.css";
 import './Common.css';
 
-class ContactSection extends React.Component {
-    render() {
-      return <div className="container">
+function ContactSection() {
+      return <div className="container" id="contact">
         <div className="main-section">
           <h2>Contact</h2>
           <div className="contact-info">
@@ -22,7 +21,6 @@ class ContactSection extends React.Component {
           </div>
         </div>
       </div>;
-    }
   }
   
 export default ContactSection;

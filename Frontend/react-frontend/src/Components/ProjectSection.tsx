@@ -5,10 +5,10 @@ import ProjectCard from './ProjectCard';
 
 function ProjectSection(){
     let projects:project[] = [new project(), new project(), new project()];
-    let projectCards:ProjectCard[] = [];
+    let projectCards:typeof ProjectCard[] = [];
 
     return <>
-        <div className='container'>
+        <div className='container' id="projects">
             <div className='main-section'>
                 <h2>Projects</h2>
                 <div className='project-grid'>

@@ -4,6 +4,7 @@ import './App.css';
 import IntroSection from './Components/IntroSection';
 import ProjectSection from './Components/ProjectSection';
 import ContactSection from './Components/ContactSection';
+import SideBar from './Components/SideBar';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <IntroSection></IntroSection>
       <ProjectSection></ProjectSection>
       <ContactSection></ContactSection>
+      <SideBar></SideBar>
     </div>
   );
 }
