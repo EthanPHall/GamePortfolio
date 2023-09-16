@@ -1,0 +1,9 @@
+{
+    "thumbnail": "https://i.imgur.com/HxspyyS.png",
+    "screenshotLinks": [],
+    "videosLinks": [], 
+    "skillsUsed": ["Unity", "A* Search (Pathing)", "C#", "Game Design"],
+    "shortDescription": "A proof of concept dungeon crawler in which the player can find spell components and combine them into unique spells that they can use to better fight the enemies, and eventually boss, of the dungeon.", 
+    "fullDescription": "Buh", 
+    "downloadLink": "https://ephhall.itch.io/spell-sculptor"
+}
