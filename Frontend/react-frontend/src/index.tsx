@@ -4,11 +4,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import ProjectPage from './Components/ProjectPage';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App></App>,
+  },
+  {
+    path:"project/:projectId",
+    element: <ProjectPage></ProjectPage>
+  }
+])
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
-    <App />
+    <RouterProvider router={router}></RouterProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

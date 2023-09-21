@@ -8,7 +8,7 @@
     border-radius: 10px;
     border-style: solid;
 
-    height: 500px;
+    /* height: 80vh; */
 }
 
 .image-and-description{
@@ -24,8 +24,9 @@ img{
     position: relative;
     top: 10px;
 
-    height: 50%;
-    width: 95%;
+    object-fit: contain;
+    width: 90%;
+    /* height: 90%; */
 
     border-radius: 15px;
 }
