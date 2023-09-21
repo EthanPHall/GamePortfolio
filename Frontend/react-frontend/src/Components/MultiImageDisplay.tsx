@@ -1,9 +1,9 @@
-function MultiImageDisplay(props:{images: string[]}){
+function MultiImageDisplay(props:{images: string[], altTextBase: string}){
     return <div className="image-display">
         {
-            props.images.map(currentImagePath => 
+            props.images.map((currentImagePath, index) => 
             {
-                return <></>;
+                return <img src={currentImagePath} alt={props.altTextBase + " " + index}></img>;
             })
         }
     </div>;

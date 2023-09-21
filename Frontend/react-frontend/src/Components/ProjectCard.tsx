@@ -9,8 +9,6 @@ interface projectCardProps{
 }
 
 function ProjectCard(props: projectCardProps) {
-  console.log(props.project);
-  
   const navigate = useNavigate();
   
   function handleNavigatingToProjectPage(){

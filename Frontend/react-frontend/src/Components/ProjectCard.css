@@ -11,6 +11,10 @@
     /* height: 80vh; */
 }
 
+.card:hover{
+    background-color: rgb(195, 195, 195);
+}
+
 .image-and-description{
     width: 100%;
     height: 60%;
