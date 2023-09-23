@@ -9,15 +9,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ProjectPage from './Components/ProjectPage';
+import NotFound from './Components/NotFound';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:<NotFound></NotFound>
   },
   {
     path:"project/:projectId",
-    element: <ProjectPage></ProjectPage>
+    element: <ProjectPage></ProjectPage>,
+    errorElement:<NotFound></NotFound>
   }
 ])
 
