@@ -1,3 +1,7 @@
+.IntroSection:first-child{
+    margin-top: 10vh;
+}
+
 .portrait{
     border-radius: 50%;
     width: 180px;

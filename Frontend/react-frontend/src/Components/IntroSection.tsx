@@ -4,8 +4,9 @@ import './Common.css';
 
 function IntroSection(){
     return <>
+    <div className='IntroSection'>
         <div className='container' id="about">
-            <img className='portrait' src={portrait} alt="portrait" ></img>
+            {/* <img className='portrait' src={portrait} alt="portrait" ></img> */}
             <div className='description main-section'>
                 Hi, and thank you for checking out this portfolio! My name is Ethan, 
                 and I'm an aspiring game developer based out of Kentucky. I'm a graduate of
@@ -23,6 +24,7 @@ function IntroSection(){
                 oportunities.
             </div>
         </div>
+    </div>
     </>
 }
 
