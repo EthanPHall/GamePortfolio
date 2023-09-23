@@ -22,9 +22,10 @@ function SideBar(){
             </button>
             {collapseLinks ? <></> : 
                 <ul className="links-list">
-                    <li><a href="https://www.linkedin.com/in/ethan-hall-706224188/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/ethan-hall-706224188" target="_blank">LinkedIn</a></li>
                     <li><a href="https://github.com/EthanPHall" target="_blank">GitHub</a></li>
                     <li><a href="https://itch.io/profile/ephhall" target="_blank">Itch.io</a></li>
+                    <li><a href="https://drive.google.com/file/d/1LDa8_q48tfz7wZ2V0OsO29Eif7Sze43U/view?usp=sharing" target="_blank">Resume</a></li>
                 </ul>
             }
         </li>
