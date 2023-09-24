@@ -7,6 +7,7 @@ import { project, section } from "../Classes/project";
 import MultiImageDisplay from "./MultiImageDisplay";
 import { useEffect } from "react";
 import scrollToTopInstantly from "../Util/scrollToTopInstantly";
+import NotFound from "./NotFound";
 
 function ProjectPage() {
   useEffect(() => {
@@ -17,8 +18,10 @@ function ProjectPage() {
   const projectId = params.projectId ? params.projectId : 1;
 
   const project: project = projects[Number(projectId) - 1];
+  
 
   return (
+    project == undefined ? <NotFound></NotFound> : 
     <div className="App">
       <div className="container">
         <div className="main-section">
