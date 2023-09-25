@@ -19,8 +19,8 @@ function ProjectCard(props: projectCardProps) {
   return <div className="card" onClick={handleNavigatingToProjectPage}>
     <div className="image-and-description">
       <h3>{props.project.$title}</h3>
-      <img src={props.project.$thumbnailLink} alt="Spell sculptor thumbnail"></img>
-      <p>{props.project.$shortDescription}</p>
+      <img className="project-card-img" src={props.project.$thumbnailLink} alt="Spell sculptor thumbnail"></img>
+      <p className="project-card-p">{props.project.$shortDescription}</p>
     </div>
     <div className="skills-area">
       <h4>Skills:</h4>

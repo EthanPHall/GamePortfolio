@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-img{
+.project-card-img{
     position: relative;
     top: 10px;
 
@@ -35,7 +35,7 @@ img{
     border-radius: 15px;
 }
 
-p{
+.project-card-p{
     width: 95%;
     text-align: start;
 }

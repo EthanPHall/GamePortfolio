@@ -22,7 +22,7 @@
     justify-content: left;
 }
 
-iframe{
+.project-page-iframe{
     aspect-ratio: 16/9;
     width: 90%;
 }
