@@ -36,12 +36,28 @@ const project2 = new project(
     "Atlas Will Fall",
     "https://i.imgur.com/FLHa1cu.png", 
     [],
-    [], 
+    ["https://www.youtube.com/embed/10PmL-esFis?si=yPJ4kAOOwbfWNW73"], 
     ["Unity", "State Machines", "C#", "Platformer Design", "Tutorial Design"],
     "A proof of concept Metroidvania in which the player uses their grappling hook and psychic powers to explore and complete a tutorial level.", 
-    "A proof of concept Metroidvania in which the player uses their psychic powers to explore and complete a tutorial level.", 
+    "A proof of concept Metroidvania in which the player uses their grappling hook and psychic powers to explore and complete a tutorial level.", 
     "https://ephhall.itch.io/atlas-will-fall",
-    []
+    [
+        new section(
+            "", 
+            "",
+            [],
+            "Atlas Will Fall is a small demo for a Metroidvania in which the player uses their grappling hook and psychic powers to explore and complete a tutorial level. The level teaches the player about the various movement mechanics the game features and awards the first powerup, which the player can use to reach the end of the level. There are the beginnings of a combat system (attacking, blocking, rolling), but that system is not fleshed out in this demo.", 
+            ),
+        new section(
+            "Screenshots/Gifs", 
+            "",
+            [
+                "https://i.imgur.com/umrG1I0.gif",
+                "https://i.imgur.com/yJZGbMt.gif",
+            ],
+            ""
+        )
+    ]
 );
 
 const projects:project[] = 

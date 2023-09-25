@@ -3,6 +3,7 @@ import "./ProjectCard.css";
 import "./Common.css";
 import {project} from "../Classes/project";
 import { useNavigate } from "react-router-dom";
+import SkillsList from "./SkillsList";
 
 interface projectCardProps{
   project: project;
@@ -23,7 +24,8 @@ function ProjectCard(props: projectCardProps) {
     </div>
     <div className="skills-area">
       <h4>Skills:</h4>
-      {props.project.$skillsUsed.map((current, index) => <li key={"project-" + props.project.$id + " skill " + index}>{current}</li>)}
+      <SkillsList skillsUsed={props.project.$skillsUsed} projectId={props.project.$id}></SkillsList>
+      {/* {props.project.$skillsUsed.map((current, index) => <li key={"project-" + props.project.$id + " skill " + index}>{current}</li>)} */}
     </div>
   </div>;
 }

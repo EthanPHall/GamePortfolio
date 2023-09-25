@@ -8,6 +8,7 @@ import MultiImageDisplay from "./MultiImageDisplay";
 import { useEffect } from "react";
 import scrollToTopInstantly from "../Util/scrollToTopInstantly";
 import NotFound from "./NotFound";
+import SkillsList from "./SkillsList";
 
 function ProjectPage() {
   useEffect(() => {
@@ -22,7 +23,7 @@ function ProjectPage() {
 
   return (
     project == undefined ? <NotFound></NotFound> : 
-    <div className="App">
+    <div className="App project-page">
       <div className="container">
         <div className="main-section">
           <h1>{project.$title}</h1>
@@ -39,13 +40,7 @@ function ProjectPage() {
             );
           })}
           <h2>Skills Used</h2>
-          <div className="skills-section">
-            {project.$skillsUsed.map((current: string, index: number) => (
-              <li key={"project-" + project.$id + " skill " + index}>
-                {current}
-              </li>
-            ))}
-          </div>
+          <SkillsList skillsUsed={project.$skillsUsed} projectId={project.$id}></SkillsList>
         </div>
       </div>
     </div>
