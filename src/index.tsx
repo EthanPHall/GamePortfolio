@@ -15,14 +15,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<NotFound></NotFound>
+    errorElement:<NotFound></NotFound>,
   },
   {
     path:"project/:projectId",
     element: <ProjectPage></ProjectPage>,
     errorElement:<NotFound></NotFound>
   }
-])
+],
+{
+  basename: process.env.PUBLIC_URL
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
