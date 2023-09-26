@@ -15,13 +15,8 @@ function IntroSection(){
                 <br></br>
                 You know that melancholy feeling you get when you beat a really good game? 
                 That strong mix of "happy it happened" and "sad it's over"? That's what inspired
-                me to pursue this field. I want to make great games that can evoke that 
-                feeling in others.
-                <br></br>
-                <br></br>
-                I'm currently looking for work so, if you like what you see, feel free
-                to contact me! I'm always excited to explore new game development/game design
-                oportunities.
+                me to pursue this hobby. I want to make great games that can evoke that 
+                feeling in others. That, and it's just a lot of fun!
             </div>
         </div>
     </div>
