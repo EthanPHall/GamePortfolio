@@ -27,7 +27,7 @@ function ProjectPage() {
       <div className="container">
         <div className="main-section">
           <h1>{project.$title}</h1>
-          <h3>Download from: <a href={project.$downloadLink} target="_blank">{project.$downloadLink}</a></h3>
+          <h3>{project.$callToAction} <a href={project.$downloadLink} target="_blank">{project.$downloadLink}</a></h3>
           {project.$videosLinks.length > 0 ? <iframe className="project-page-iframe" src={project.$videosLinks[0]}></iframe> : <></>}
           {project.$projectPageSections.map((current: section) => {
             return (

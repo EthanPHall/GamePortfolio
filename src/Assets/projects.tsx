@@ -2,6 +2,44 @@ import { project, section } from "../Classes/project";
 
 const project1 = new project(
     1,
+    "Rime and Rust",
+    "https://i.imgur.com/HDLoBd2.png", 
+    [],
+    [], 
+    ["React", "Typescript", "Enemy AI", "Turn Based Combat Design"],
+    "A resource management, base building, exploration game with innovative turn-based combat that tasks the player with programming their character's actions and letting that \"program\" play out. The combat rewards thinking ahead and anticipating how the battlefield may change as the character executes their given actions.", 
+    "A resource management, base building, exploration game with innovative turn-based combat that tasks the player with programming their character's actions and letting that \"program\" play out. The combat rewards thinking ahead and anticipating how the battlefield may change as the character executes their given actions.", 
+    "https://ethanphall.github.io/rime-and-rust-ts/",
+    "Play Rime and Rust At: ",
+    [
+        new section(
+            "", 
+            "",
+            [],
+            "A browser based resource management, base building, exploration game with innovative turn-based combat that tasks the player with programming their character's actions and letting that \"program\" play out. The combat rewards thinking ahead and anticipating how the battlefield may change as the character executes their given actions.", 
+        ),
+        new section(
+            "", 
+            "",
+            [],
+            "The game is not fully complete. At this point, most of the work left to do is in the combat, improving enemy AI and adding new abilities for the player. As well as adding a final objective; currently there is no end, you just explore the map in its entirety.", 
+        ),
+        new section(
+            "Screenshots", 
+            "",
+            [
+                "https://i.imgur.com/rmsc021.png", 
+                "https://i.imgur.com/NC4wje9.png", 
+                "https://i.imgur.com/EUpDaon.png",
+                "https://i.imgur.com/LuYcFb3.png",
+                "https://i.imgur.com/HDLoBd2.png"
+            ],
+            ""
+        )
+    ]
+);
+const project2 = new project(
+    2,
     "Spell Sculptor",
     "https://i.imgur.com/HxspyyS.png", 
     [],
@@ -10,6 +48,7 @@ const project1 = new project(
     "A proof of concept dungeon crawler in which the player can find spell components and combine them into unique spells that they can use to better fight the enemies, and eventually boss, of the dungeon.", 
     "A proof of concept dungeon crawler in which the player can find spell components and combine them into unique spells that they can use to better fight the enemies, and eventually boss, of the dungeon.", 
     "https://ephhall.itch.io/spell-sculptor",
+    "Download At: ",
     [
         new section(
             "", 
@@ -31,8 +70,8 @@ const project1 = new project(
         )
     ]
 );
-const project2 = new project(
-    2,
+const project3 = new project(
+    3,
     "Atlas Will Fall",
     "https://i.imgur.com/FLHa1cu.png", 
     [],
@@ -41,6 +80,7 @@ const project2 = new project(
     "A proof of concept Metroidvania in which the player uses their grappling hook and psychic powers to explore and complete a tutorial level.", 
     "A proof of concept Metroidvania in which the player uses their grappling hook and psychic powers to explore and complete a tutorial level.", 
     "https://ephhall.itch.io/atlas-will-fall",
+    "Download At: ",
     [
         new section(
             "", 
@@ -63,7 +103,8 @@ const project2 = new project(
 const projects:project[] = 
 [
     project1, 
-    project2
+    project2,
+    project3
 ];
 
 export default projects;

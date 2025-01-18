@@ -88,6 +88,7 @@ class project{
     private shortDescription:string = "";
     private fullDescription:string = "";
     private downloadLink:string = "";
+    private callToAction:string = "";
     private projectPageSections:section[] = [];
 
 	constructor
@@ -101,6 +102,7 @@ class project{
         $shortDescription: string = "", 
         $fullDescription: string = "", 
         $downloadLink: string = "",
+        $callToAction:string = "",
         $projectPageSections:section[] = []
     ) 
     {
@@ -113,8 +115,17 @@ class project{
 		this.shortDescription = $shortDescription;
 		this.fullDescription = $fullDescription;
 		this.downloadLink = $downloadLink;
+        this.callToAction = $callToAction;
 		this.projectPageSections = $projectPageSections;
 	}
+
+    /**
+     * Getter $callToAction
+     * @return {string }
+     */
+    public get $callToAction(): string  {
+        return this.callToAction;
+    }
 
     /**
      * Getter $id

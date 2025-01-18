@@ -10,12 +10,12 @@ function IntroSection(){
             <div className='description main-section'>
                 Hi, and thank you for checking out this portfolio! My name is Ethan, 
                 and I'm an aspiring game developer based out of Kentucky. I'm a graduate of
-                the Univeristy of Kentucky, where I earned my Bachelor's in Computer Science.
+                the University of Kentucky, where I earned my Bachelor's in Computer Science.
                 <br></br>
                 <br></br>
                 You know that melancholy feeling you get when you beat a really good game? 
                 That strong mix of "happy it happened" and "sad it's over"? That's what inspired
-                me to pursue this hobby. I want to make great games that can evoke that 
+                me to pursue this career path. I want to make great games that can evoke that 
                 feeling in others. That, and it's just a lot of fun!
             </div>
         </div>
